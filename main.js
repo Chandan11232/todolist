@@ -6,6 +6,8 @@ window.addEventListener("load", () => {
   const list_el = document.querySelector("#tasks");
   console.log("hello world");
 
+	console.log("I changed something");
+
   form.addEventListener("submit", (e) => {
     e.preventDefault();
 
